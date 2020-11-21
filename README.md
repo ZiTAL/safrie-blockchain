@@ -6,7 +6,10 @@ https://github.com/lhartikk/naivechain
 
 ## RUN SERVERS ##
 
+```
 bash server-01.sh
+bash server-02.sh
+```
 
 params:
 - COLLECTION: MONGODB collection name 
@@ -22,8 +25,10 @@ Example: P2P_PORT=6001
 
 Create collection:
 
+```
 db.createCollection('blockchain-01');
 db.createCollection('blockchain-02');
+```
 
 ## HTTP API ##
 
